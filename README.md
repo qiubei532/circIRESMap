@@ -5,7 +5,7 @@ Predicting circRNA IRES sites using CNN + DAMSR + BiGRU with Balanced Bagging.
 ## Model Architecture
 
 - **Shared CNN**: Extracts local sequence features (motifs)
-- **Branch 1 - DAMSR** (NeurIPS 2023): Multi-scale retention mechanism with distance-decay attention
+- **Branch 1 - DAMSR**: Multi-scale retention mechanism with distance-decay attention
 - **Branch 2 - BiGRU**: Bidirectional recurrent accumulation for implicit global context
 - **Balanced Bagging**: Ensemble of N models, each trained on all positive samples + 1/N negative samples
 
